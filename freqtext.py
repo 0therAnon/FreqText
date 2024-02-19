@@ -6,9 +6,42 @@
 import sys
 import collections
 
-# This is the help message
+# This is the banner and help message
 
-help_message = "\nUsage ./freqtext.py <path_to_file> \n" \
+banner = "\033[3;31m"+"\n" \
+"                                                                                                   \n" \
+"                                                          .dOPM.                                   \n" \
+"   .CQMOPQSPOIBSBUMQPJUSHYUP)                          dOM'\"*\"´MNb                                 \n" \
+"   OMP/                                               (OM  .    °)t                                \n" \
+"  QOMl                                                OM  .      QA                                \n" \
+"   (PO                                                SB  °.     )B                                \n" \
+"   \WA                                                °Bm      .XS                                 \n" \
+"    'MA                                                \'CAwmaOKDP                                  \n" \
+"     *MO                                                   °\"´  \"?ME.                              \n" \
+"       KD.                                                          MOc.                           \n" \
+"    CXSDSYTOPb                                                         JB.            .,           \n" \
+"         OM                                         ._.                  1l           OMA          \n" \
+"         1Ml                                        RDW                               ?P;          \n" \
+"          KA                                        MKI                               8JA          \n" \
+"          QA                                        QDA                         6OMPAXKMDVSDFB     \n" \
+"          MS    OA                              oOPKNKMLOIP.                          MAX          \n" \
+"          ZA    M0         mEWING.       .:-opl     PLM                               LMS          \n" \
+"          KM    RP       (OMP(   )ES   dOPAWMPQ     DST     .:OPANDIo  .zO    .$P     PLA          \n" \
+"          %A    WQAMP^   GMPASUOPAQP  COM/  &Al    1lP^   dIMP.  xOMP   qHb.xOMF      MXK          \n" \
+"          8M    KLB\'     1WEP        (HNS   )Mi    iOM    ANOD;ELIYSBS   \"OMWD\'       INF          \n" \
+"          t°    MX        MEEO ,_.    \"1UHJQXS|    MKA    DASl           dHBP.        XS1          \n" \
+"                FR         °\"~+*^        °\"lMP     LLP    qLPi._        1MP q2A,      UNl          \n" \
+"                                           OMK     GBH      °!MAQP*   .KM             !SQ          \n" \
+"                                           AZX     'IJ.              JIK               OM          \n" \
+"                                           &X$                       QA                UO          \n" \
+"                                           :OP                       °                  *          \n" \
+"                                           °*Pb.                                                   \n" \
+"                                                                                                   \n" \
+"\033[2;35m"+" v1.1                                                                                              \n" \
+" By: 0therAnon                                                                                     \n" \
+" Made with chewing gum :p                                                                          \n" +"\033[0;m"
+
+help_message = banner + "\nUsage ./freqtext.py <path_to_file> \n" \
         "This script does a frequency analysis with encrypted texts\n" \
         "doing some analysis to the text to give you details like\n" \
         "the most repeated character, pair and trio in a file. The\n" \

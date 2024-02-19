@@ -5,8 +5,6 @@ I did this bc sometimes I like to code things, also I was doing some challenges 
 
 This script works well, the only failure is that with the trios you may have errors, for example if the script gives you 26 repetitions of one trio, that result might be incorrect and the real amount of repetitions are 27 repetitions, the script might be incorrect by 1 or 2 repetitions, but it only happens with the most frequent trios, with the pairs this script works well and also works well with the letters, by the way with the information this script gives you, you can already decrypt the text
 
-<span>![</span><span>FreqText Banner</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/0therAnon/FreqText/main/banner.png</span><span>)</span>
-
 ```text
 Usage ./freqtext.py <path_to_file> 
 This script does a frequency analysis with encrypted texts

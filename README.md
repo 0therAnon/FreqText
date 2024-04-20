@@ -1,5 +1,5 @@
 # FreqText
-### This script does a frequency analysis with a encrypted text, it gives you details like the most repeated character, pair and trio
+### This script does a frequency analysis with an encrypted text, it gives you details like the most repeated character, pair and trio
 
 I did this bc sometimes I like to code things, also I was doing some challenges related to encryption, and wanted to code this, frequency analysis in cryptography is some analysis to see the most repeated letters, pairs and trios in a text with simple encryption, this helps you to know what may be the letter that is hidden, bc in every language exists letters, pairs and trios that are repeated constantly, for example in english one of the most repeated trios are "the", one of the most repeated couples are "th" and one of the most repeated letters are "t", if you know in a text encrypted with simple encryption the language and have the most used characters, you can get what the text originally said!
 
